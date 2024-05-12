@@ -3,9 +3,9 @@ fx_version 'cerulean'
 game 'gta5'
 
 -- {{Resouce Information}}
-author 'Respect Development'
+author 'Respect Development (Forked by Jv$st)'
 description 'Discord RPC'
-version '1.4'
+version '1.5.0'
 
 -- {{Manifest}} --
 lua54 'yes'
@@ -22,19 +22,6 @@ server_scripts {
     'Server/Server.lua'
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+files {
+    "Bridge/*.lua"
+}

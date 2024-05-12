@@ -5,7 +5,7 @@ Config.Framework = "ESX" -- ESX/QBCORE
 Config.ApplicationID = 1193592918515138732 -- Your Application Id
 Config.UpdateTime = 60
 
-Updater = true
+Config.Updater = true
 
 -- SERVER
 -- {ServerPlayers} : Show count all conected players
@@ -66,5 +66,5 @@ Config.Strings = {
     Female = "Female",
     Dead = "Dead",
     Loading = "Loading.."
-
+    
 }
